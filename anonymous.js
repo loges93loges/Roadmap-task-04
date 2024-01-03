@@ -99,7 +99,7 @@ let uniqueArray = function (arr) {
     });
 };
 let arrayWithoutDuplicates = uniqueArray(arrayWithDuplicates);
-console.log("Array without duplicates:", arrayWithoutDuplicates);
+console.log(arrayWithoutDuplicates);
 
 //   o/p:
 //   [1, 2, 3, 4, 5, 6, 8, 7, 9]
