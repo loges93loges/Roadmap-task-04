@@ -44,7 +44,7 @@ console.log("sum:",sum);
 
 
 //   4. return all the prime numbers in an array
-let numbers = [2, 3, 5, 7, 10, 13, 14, 17, 19, 23];
+let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 let primeNumbers = (function (arr) {
     let isPrime = function (num) {
         if (num < 2) return false;
@@ -60,7 +60,7 @@ let primeNumbers = (function (arr) {
 console.log(primeNumbers);
 
 //   o/p:
-//   [2,  3,  5,  7, 13, 17, 19, 23]
+//   [2,  3,  5,  7, 11, 13, 17, 19]
 
 
 //   5. return all the palindromes in an array
